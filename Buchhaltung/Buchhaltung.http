@@ -1,0 +1,6 @@
+@Buchhaltung_HostAddress = http://raspi4
+
+GET {{Buchhaltung_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
