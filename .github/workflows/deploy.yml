@@ -28,6 +28,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
+          file: ./Buchhaltung/Dockerfile
           push: true
           tags: |
             boblee2km/buchhaltung:latest
