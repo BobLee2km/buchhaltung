@@ -1,0 +1,89 @@
+﻿# ----------------------------
+# .NET / ASP.NET Core
+# ----------------------------
+**/bin/
+**/obj/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/[Xx]64/
+**/[Xx]86/
+**/[Aa]ny [Cc][Pp][Uu]/
+**/[Aa]rm/
+**/[Aa]rm64/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.mdb
+*.log
+
+# MSBuild / NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+
+# Test results / coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.opencover.xml
+.coverage/
+*.lcov
+
+# ASP.NET Core secrets/certs (don't commit)
+**/*.pfx
+**/*.p12
+**/*.pem
+**/*.key
+secrets.json
+
+# Local appsettings overrides (keep appsettings.json committed)
+**/appsettings.*.local.json
+**/appsettings.Local.json
+
+# ----------------------------
+# JetBrains Rider / IntelliJ
+# ----------------------------
+.idea/
+*.sln.iml
+
+# Rider-specific
+*.DotSettings.user
+**/.fleet/
+
+# ----------------------------
+# VS Code (optional)
+# ----------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ----------------------------
+# OS / tooling
+# ----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------------
+# Docker / Compose local overrides
+# ----------------------------
+docker-compose.override.yml
+compose.override.yaml
+compose.override.yml
+
+# ----------------------------
+# Publish output (if you ever create local publish folders)
+# ----------------------------
+publish/
+**/publish/
