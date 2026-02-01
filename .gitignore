@@ -87,3 +87,10 @@ compose.override.yml
 # ----------------------------
 publish/
 **/publish/
+
+# Environment files (secrets)
+.env
+.env.*
+compose.override.yaml
+Caddyfile.local
+Caddyfile
